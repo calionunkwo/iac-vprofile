@@ -4,8 +4,8 @@ on:
     branches:
       - main
       - stage
-    paths:  
-      - terraform/**
+    # remove this completely for testing paths:  
+      # - terraform/**
   pull_request:
     branches:
       - main
